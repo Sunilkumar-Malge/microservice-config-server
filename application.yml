@@ -1,1 +1,9 @@
-
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sunilkumar-Malge/microservice-config-server
+          clone-on-start: true
